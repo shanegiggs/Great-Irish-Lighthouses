@@ -62,6 +62,10 @@ h1, h2 {
   border-bottom: 1px solid #00FFC2;
 }
 
+#logo {
+width: 50px;
+}
+
 /* hero image */
 
 #hero-image {
