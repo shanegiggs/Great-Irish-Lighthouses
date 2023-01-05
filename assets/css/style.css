@@ -57,3 +57,7 @@ h1, h2 {
 .nav a:hover {
   color: #00FFC2;
 }
+
+.active {
+  border-bottom: 1px solid #00FFC2;
+}
