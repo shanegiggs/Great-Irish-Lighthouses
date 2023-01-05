@@ -12,11 +12,7 @@
   background-color: #232323;
 }
 
-a { 
-  color: white;
-  text-decoration: none!important;
-  
-}
+
 
 h1, h2 {
   font-family: 'DM Serif Display', serif;
@@ -28,11 +24,13 @@ h1, h2 {
 /* navbar and logo */
 .nav {
   color: white;
-  letter-spacing: 2px;
+  letter-spacing: 5px;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
+  font-weight: 200;
+
   
 }
 
@@ -45,5 +43,17 @@ h1, h2 {
   text-align: center;
   font-size: 1em;
   color: white;
+  padding-left: 10px;
+  padding-right: 10px;
   
+}
+
+.nav a { 
+  color: white;
+  text-decoration: none!important;
+  
+}
+
+.nav a:hover {
+  color: #00FFC2;
 }
