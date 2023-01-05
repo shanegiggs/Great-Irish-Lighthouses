@@ -1,4 +1,49 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300;500;600&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap");
+
+    * {
+      padding: 0;
+      margin: 0;
+      border: none;
+    }
+
+    body {
   font-family: poppins, robotto, sans-serif;
   background-color: #232323;
+}
+
+a { 
+  color: white;
+  text-decoration: none!important;
+  
+}
+
+h1, h2 {
+  font-family: 'DM Serif Display', serif;
+  font-weight: 500;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+/* navbar and logo */
+.nav {
+  color: white;
+  letter-spacing: 2px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+
+
+.nav > div {
+ 
+  margin: 20px;
+  text-align: center;
+  font-size: 1em;
+  color: white;
+  
 }
