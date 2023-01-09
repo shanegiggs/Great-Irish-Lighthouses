@@ -25,7 +25,8 @@ h1, h2 {
 
 h3 {
   font-family: 'DM Serif Display', serif;
-  font-size: large;
+  font-weight: 500;
+  font-size: 1.5rem;
   color: white;
 
 }
@@ -76,31 +77,43 @@ p {
   border-bottom: 1px solid #00FFC2;
 }
 
-#logo {
-width: 50px;
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 150px;
+  padding: 25px 0px 10px 0px;
+
 }
 
 /* hero image */
 
 #hero-image {
-  height: 900px;
+  height: 850px;
   width: 100%;
   background: url(../images/hero-image.webp) no-repeat center top;
   z-index: 0;
+  overflow: hidden;
 }
 
 
-/* lighthouses */
+/* lighthouse cards */
 
-.cards {
-   display: flex;
-   justify-content: space-between;
-   flex-basis: auto; 
-   margin: 10 10 10 10;
-   padding: 0px 150px 0px 150px;
-}
 
-.cards p {
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: auto; 
+    margin: 10 10 10 10;
+    padding: 0px 150px 0px 150px;
+    width: 33%;
+    height: 300px;
+ }
+
+
+
+
+.lighthouse p {
   color: white;
 }
 
@@ -131,6 +144,16 @@ padding: 2%;
 }
 
 
-footer > #logo {
-width: 20px;
+/* video */
+
+.video {
+  text-align: center;
+  
+}
+
+h4 {
+  color: white;
+  font-size: large;
+  text-align: center;
+  padding-bottom: 20px;
 }
