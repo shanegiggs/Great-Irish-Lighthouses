@@ -105,3 +105,32 @@ width: 50px;
 }
 
 
+/* footer section */
+
+footer {
+  max-height: 150px;
+  background-color: #232323;
+  text-align: center;
+  
+}
+
+
+.social-media-icons-white a {
+  color: white;
+  text-align: center;
+}
+
+.social-media-icons-white a:hover {
+  color:#00FFC2
+}
+
+.social-media-icons-white > li {
+display: inline;
+margin: 1%;
+padding: 2%;
+}
+
+
+footer > #logo {
+width: 20px;
+}
