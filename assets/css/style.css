@@ -79,7 +79,7 @@ header {
   color: #00FFC2;
 }
 
- .active {
+ nav a .active {
   border-bottom: 1px solid #00FFC2;
 }
 
@@ -157,8 +157,6 @@ header {
     text-shadow: black;
     text-align: center;
     font-weight: 500;
-   
-    
 
   }
 
@@ -169,15 +167,10 @@ header {
     font-size: .8rem;
     text-shadow: black;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 25px;
     
-
-    
-
   }
   
-
- 
 
 
 /* lighthouse cards */
@@ -187,7 +180,6 @@ header {
     justify-content: center;
     flex-basis: auto; 
     height: 500px;
-    
     
    
  }
@@ -253,7 +245,8 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
+  display: flex;
+  justify-content: center;
   position: relative;
 } 
 
@@ -267,7 +260,8 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
+  display: flex;
+  justify-content: center;
   position: relative;
 } 
 
@@ -281,7 +275,8 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
+  display: flex;
+  justify-content: center;
   position: relative;
 } 
 
@@ -295,7 +290,8 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   bottom: 0;
-
+  display: flex;
+  justify-content: center;
   position: relative;
 } 
 
