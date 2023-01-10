@@ -87,15 +87,56 @@ p {
 
 }
 
-/* hero image */
+/* hero section */
 
-#hero-image {
-  height: 850px;
-  width: 100%;
-  background: url(../images/hero-image.webp) no-repeat center top;
-  z-index: 0;
-  overflow: hidden;
-}
+  .wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+  }
+  
+  .hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+  }
+  
+  .background {
+    transform: translateZ(-10px) scale(2);
+  }
+  
+  .foreground {
+    transform: translateZ(-5px) scale(1.5);
+  }
+  
+  .background,
+  .foreground {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .title {
+    font-size: 7rem;
+    color: black;
+  }
+  
+  .content {
+    width: 200px;
+    font-size: 1rem;
+    padding: 3rem;
+    color: black;
+    justify-content: center;
+    align-items: center;
+  }
+  
 
 
 /* lighthouse cards */
@@ -108,8 +149,20 @@ p {
     padding: 0px 250px 0px 250px;
     height: 400px;
     text-align: center;
+    
   
  }
+
+ #cards_below {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: auto; 
+  padding: 0px 250px 0px 250px;
+  height: 400px;
+  text-align: center;
+  
+
+}
 
 .lighthouse1 {
   background-color: black;
@@ -120,7 +173,7 @@ p {
   position: relative;
   background-image: url(/assets/images/51536374908_53edd29936_b.webp);
   background-position: center;
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
 } 
  
@@ -133,8 +186,9 @@ p {
   position: relative;
   background-image: url(/assets/images/Valentia_lighthouse.webp);
   background-position: center;
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
+  
 } 
 
 .lighthouse3 {
@@ -146,13 +200,35 @@ p {
   position: relative;
   background-image: url(/assets/images/Fastnet-Rock.webp);
   background-position: center;
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
 } 
 
+.lighthouse4 {
+  background-color: black;
+  width: 600px;
+  height:400px;
+  border-radius: 5px;
+  margin: 10px;
+  position: relative;
+  background-image: url(/assets/images/wicklow-head-lighthouse.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
 
-.cards h3 p {
-  position: absolute; left: 0; bottom: 0; }
+.lighthouse5 {
+  background-color: black;
+  width: 600px;
+  height:400px;
+  border-radius: 5px;
+  margin: 10px;
+  position: relative;
+  background-image: url(/assets/images/Fanad_Head_Lighthouse__2699889956_.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
 
 
 /* video */
