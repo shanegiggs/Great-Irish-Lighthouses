@@ -79,7 +79,7 @@ header {
   color: #00FFC2;
 }
 
- nav a .active {
+ .active {
   border-bottom: 1px solid #00FFC2;
 }
 
@@ -87,8 +87,6 @@ header {
   
   max-width: 150px;
   padding-top: 15px;
- 
-
 }
 
 /* hero section */
@@ -335,3 +333,10 @@ display: inline;
 margin: 1%;
 padding: 2%;
 }
+
+    /*contact page*/
+
+    .map { 
+      text-align: center;
+    
+    }
