@@ -354,3 +354,25 @@ column-gap: 2;
     #photos > img {
 width: 100%;
     }
+
+      /* media queries */
+    @media screen and (max-width:1200px) {
+      .hero-outer {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+      }
+      
+.player {
+  width: 65%;
+  height: 1200px;
+}
+
+    }
+
+
+    /*tidy up*/
+
+    .i4ewOd-pzNkMb-haAclf {
+      display: none;
+    }
