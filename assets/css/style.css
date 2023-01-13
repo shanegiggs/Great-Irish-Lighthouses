@@ -340,3 +340,17 @@ padding: 2%;
       text-align: center;
     
     }
+
+    /* gallery page */
+
+    #photos {
+clear: both;
+line-height: 2;
+column-count: 4;
+column-gap: 2;
+    }
+    
+    
+    #photos > img {
+width: 100%;
+    }
