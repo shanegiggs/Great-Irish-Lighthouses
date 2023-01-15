@@ -21,6 +21,7 @@ h1, h2 {
   text-align: center;
   color: white;
 
+
 }
 
 h3 {
@@ -28,6 +29,7 @@ h3 {
   font-weight: 500;
   font-size: 1.5rem;
   color: white;
+  letter-spacing: 5px;
   
 
 }
@@ -36,6 +38,7 @@ p {
   font-family: poppins, sans-serif;
   color: white;
   margin: 0;
+  letter-spacing: 5px;
   
 }
 
@@ -83,7 +86,7 @@ header {
   border-bottom: 1px solid #00FFC2;
 }
 
-.logo {
+.logo img {
   
   max-width: 150px;
   padding-top: 15px;
@@ -355,26 +358,16 @@ column-gap: 2;
 width: 100%;
     }
 
-      /* media queries */
-    @media screen and (max-width:1200px) {
-      .hero-outer {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-      }
-      
-.player {
-  width: 65%;
-  height: 1200px;
-}
 
-    }
     /*form*/
 
     .form {
       font-family: poppins;
       color: white;
+
     }
+
+
 
     input[type=text], select, textarea {
       width: 100%;
@@ -437,6 +430,59 @@ width: 100%;
 
     /*tidy up*/
 
-    .i4ewOd-pzNkMb-haAclf {
-      display: none;
+   
+
+
+
+/* media queries */
+      @media only screen
+      and (min-device-width : 320px) 
+      and (max-device-width : 480px)  {
+
+      .cover-text h2 {
+        font-size: 3rem;
+
+      }
+
+      .cover-text h3 {
+        font-size: 1rem;
+        padding-top: 10px;
+
+      }
+
+      .cover-text h4 {
+        font-size: .7rem;
+        padding: 10px 5px 0 5px;
+
+      }
+    
+
+      #hero-outer {
+        width: 100;
+        height: 450px;
+        background-image: linear-gradient(360deg, #232323, #23232333, #23232300);
+      }
+      
+      
+      iframe {
+        width: 100vw;
+        height: 100vmin;
+      }
+
+      #hero-image {
+      
+        height: 100vh;  
+        width: 100vw;  
+        background-image: linear-gradient(360deg, #232323, #23232333, #23232300), url(/assets/images/hero-image.webp);
+        position: relative;
+        background-position: center, bottom;
+
+        /* animation upon loading */
+        animation-name: hero-zoom;
+        animation-duration: 10s;
+        animation-fill-mode: forwards;
+    
+      }
     }
+
+    
