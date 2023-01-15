@@ -301,6 +301,7 @@ header {
 
 .video {
   text-align: center;
+  width: 600px;
   
 }
 
@@ -461,28 +462,101 @@ width: 100%;
         width: 100;
         height: 450px;
         background-image: linear-gradient(360deg, #232323, #23232333, #23232300);
+        margin-bottom: 0;
       }
       
       
       iframe {
         width: 100vw;
         height: 100vmin;
+        padding: 0 5px 0 5px;
       }
 
       #hero-image {
       
-        height: 100vh;  
-        width: 100vw;  
+        width: 100%;
+        height: 450px;  
         background-image: linear-gradient(360deg, #232323, #23232333, #23232300), url(/assets/images/hero-image.webp);
         position: relative;
-        background-position: center, bottom;
+        background-position: center, center; }
 
-        /* animation upon loading */
-        animation-name: hero-zoom;
-        animation-duration: 10s;
-        animation-fill-mode: forwards;
-    
+       
+        #cards {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 10px 20px 10px;
+        height: 1000px;
+       
+        
       }
-    }
+      .content h3 {
+        bottom: 28px;
+        line-height: 1.5rem;
+      }
+      .content p {
+        bottom: 2px;
+      }
+
+      .lighthouse1 {
+        width: 100%;
+        height:500px;
+        margin: 10px 0 30px 0;
+      
+       
+      } 
+    
+      
+      
+      .lighthouse2 {
+        width: 100%;
+        height:500px;
+        margin: 10px 0 30px 0;
+      } 
+      
+      .lighthouse3 {
+        width: 100%;
+        height:500px;
+        margin: 10px 0 10px 0;
+      } 
+      
+      .lighthouse4 {
+        width: 100%;
+        height:200px;
+        margin: 10px 5px 30px 5px;
+      } 
+      
+      .lighthouse5 {
+        width: 100%;
+        height:200px;
+        margin: 10px 5px 30px 5px;
+      } 
+      
+      #cards_below {
+        
+        height: 200px;
+        text-align: center;
+        margin: 5px;
+        
+        
+      }
+
+      .video {
+        text-align: center;
+        width: 100%;
+        margin: 0 5px 0 5px;
+        height: auto;
+      }
+       .player {
+        width: 100%;
+        height: 100%;
+       }
+        
+      }
+   
+ 
+
+
+    
 
     
