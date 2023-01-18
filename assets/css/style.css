@@ -67,8 +67,7 @@ header {
   text-align: center;
   font-size: 1em;
   color: white;
-  padding-left: 10px;
-  padding-right: 10px;
+  
   
 }
 
@@ -321,13 +320,18 @@ footer {
   max-height: 150px;
   background-color: #232323;
   text-align: center;
+
   
 }
 
 
+.social-media-icons-white {
+  text-align: center;
+
+}
 .social-media-icons-white a {
   color: white;
-  text-align: center;
+  text-decoration: none;
 }
 
 .social-media-icons-white a:hover {
@@ -431,18 +435,16 @@ width: 100%;
       margin: 0 auto;
     }
 
-    /*tidy up*/
-
-   
-
-
+  
 
 /* media queries  480px*/
       @media only screen
       and (min-device-width : 320px) 
-      and (max-device-width : 480px)  {
+      and (max-device-width : 950px)  {
 
-      .cover-text h2 {
+      
+     
+        .cover-text h2 {
         font-size: 3rem;
 
       }
@@ -551,11 +553,33 @@ iframe {
    
  
       /* media queries from 950px and down */
-      @media only screen and (max-width: 950px) 
+      @media only screen and (max-width: 950px) {
 
+      #hero-image {
+        width: 100%;
+        height: 100vh;  
+        background-image: linear-gradient(360deg, #232323, #23232333, #23232300), url(/assets/images/hero-image.webp);
+        position: relative;
+        background-position: center, top; 
+        margin: 0 auto;
+      }
 
-    
-{
-  
+      .cover-text h2 {
+        line-height: 1em;
+        text-shadow: 2px 2px 6px #232323;
+        }
+       
+        iframe {
+          width: 90%;
+          height: 300px;
+          
+        }
+
 }
-    
+      
+    /* media queries from 950px and down */
+    @media only screen and (max-width: 800px) { 
+      #photos {
+        column-count: 2;
+      }
+    }
