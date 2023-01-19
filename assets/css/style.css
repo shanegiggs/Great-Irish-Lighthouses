@@ -376,7 +376,6 @@ width: 100%;
   .box img{
       width: 100%;
       height: auto;
-    
       transition: all 0.5s ease 0s;
   }
   .box:hover img{
@@ -407,10 +406,11 @@ width: 100%;
   }
   .box .post{
       font-size: 14px;
-      font-weight: 400;
+      font-weight: 500;
       letter-spacing: 1px;
       margin: 0 0 10px 5px;
       display: block;
+      line-height: 1.5;
   }
 
   
