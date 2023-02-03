@@ -112,7 +112,7 @@ header {
     align-items: center;
     height: 600px;  
     width: 100%;  
-    background-image: linear-gradient(360deg, #232323, #23232333, #23232300), url(assets/images/hero-image.webp);
+    background-image: linear-gradient(360deg, #232323, #23232333, #23232300), url(../images/hero-image.webp);
     background-attachment: fixed;
     position: relative;
 
@@ -222,7 +222,7 @@ header {
   height:500px;
   border-radius: 5px;
   margin: 10px;
-  background-image: linear-gradient(360deg, #232323, #23232300, #23232300), url(assets/images/51536374908_53edd29936_b.webp);
+  background-image: linear-gradient(360deg, #232323, #23232300, #23232300), url(../images/51536374908_53edd29936_b.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -242,7 +242,7 @@ header {
   height:500px;
   border-radius: 5px;
   margin: 10px;
-  background-image: linear-gradient(360deg, #232323, #23232300, #23232300), url(assets/images/Valentia_lighthouse.webp);
+  background-image: linear-gradient(360deg, #232323, #23232300, #23232300), url(../images/Valentia_lighthouse.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -257,7 +257,7 @@ header {
   height:500px;
   border-radius: 5px;
   margin: 10px;
-  background-image: linear-gradient(360deg, #232323, #23232300, #23232300), url(assets/images/Fastnet-Rock.webp);
+  background-image: linear-gradient(360deg, #232323, #23232300, #23232300), url(../images/Fastnet-Rock.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -272,7 +272,7 @@ header {
   height:400px;
   border-radius: 5px;
   margin: 10px;
-  background-image: linear-gradient(360deg, #232323, #23232300, #23232300), url(assets/images/wicklow-head-lighthouse.webp);
+  background-image: linear-gradient(360deg, #232323, #23232300, #23232300), url(../images/wicklow-head-lighthouse.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -287,7 +287,7 @@ header {
   height:400px;
   border-radius: 5px;
   margin: 10px;
-  background-image: linear-gradient(360deg, #232323, #23232300, #23232300), url(assets/images/Fanad_Head_Lighthouse__2699889956_.webp);
+  background-image: linear-gradient(360deg, #232323, #23232300, #23232300), url(../images/Fanad_Head_Lighthouse__2699889956_.webp);
   background-repeat: no-repeat;
   background-size: cover;
   bottom: 0;
