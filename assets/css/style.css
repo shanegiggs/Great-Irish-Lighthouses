@@ -613,7 +613,7 @@ iframe {
       #hero-image {
         width: 100%;
         height: 100vh;  
-        background-image: linear-gradient(360deg, #232323, #23232333, #23232300), url(assets/images/hero-image.webp);
+        background-image: linear-gradient(360deg, #232323, #23232333, #23232300), url(../images/hero-image.webp);
         position: relative;
         background-position: center, top; 
         margin: 0 auto;
